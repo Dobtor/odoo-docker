@@ -53,7 +53,7 @@ RUN echo 'deb http://apt.postgresql.org/pub/repos/apt/ buster-pgdg main' > /etc/
 RUN npm install -g rtlcss
 
 # Install Odoo
-ENV ODOO_VERSION 14.0alphal
+ENV ODOO_VERSION 14.0alpha1
 ARG ODOO_RELEASE=20200313
 ARG ODOO_SHA=06892cfee28abc8a88df2427d1f529c3d7bbaa93
 RUN curl -o odoo.deb -sSL http://nightly.odoo.com/master/nightly/deb/odoo_${ODOO_VERSION}.${ODOO_RELEASE}_all.deb \
