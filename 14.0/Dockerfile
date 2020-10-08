@@ -1,4 +1,8 @@
+<<<<<<< HEAD
+  FROM debian:buster-slim
+=======
 FROM debian:buster-slim
+>>>>>>> 9ceab7ee30faaa94c7ca5b2d6b173b9b07a7359a
 MAINTAINER Odoo S.A. <info@odoo.com>
 
 SHELL ["/bin/bash", "-xo", "pipefail", "-c"]
